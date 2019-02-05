@@ -10,18 +10,14 @@
 ### 数式
 
 ```math
-\begin{equation}
 \phi_1, \cdots, \phi_v, \cdots \phi_V \ge 0, \quad
 \sum_{v=1}^{V} \phi_v = 1
-\end{equation}
 ```
 
 を満たし， $`f(x)`$ が上に凸な関数であるとき，
 
 ```math
-\begin{equation}
 f \left( \sum_{v=1}^{V} \phi_v x_v \right) \ge \sum_{v=1}^{V} \phi_v f \left( x_v \right)
-\end{equation}
 ```
 
 が成り立つ．
