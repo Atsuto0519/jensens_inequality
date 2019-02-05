@@ -16,3 +16,13 @@
 ![alt](img/theorem.png)
 
 が成り立つ．
+
+# Usage
+
+`python plot_jensen.py`
+
+実行すると，`jensen.png` が作成される．
+
+デフォルトはf(x)=log(x)としてイェンセンの不等式を確かめられる．
+
+![alt](jensen.png)
