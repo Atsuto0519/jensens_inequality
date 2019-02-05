@@ -23,7 +23,7 @@ print("phi:"+str(phi))
 print("sum phi:"+str(sum(phi)))
 
 xmin = 1
-xmax = 8
+xmax = 6
 
 x_1 = 2
 x_n = 4
@@ -68,4 +68,5 @@ plt.scatter(x_jensen, num_right, label="Inequality's right")
 
 # 表示
 plt.legend()
-plt.show()
+# plt.show()
+plt.savefig("jensen.png")
